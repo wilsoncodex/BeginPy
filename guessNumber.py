@@ -11,21 +11,21 @@ print("Well, " + peasant + ", I'm thinking of a number between 1 and 100 now gue
 
 
 for guessesTaken in range(10):
-	guess = input()
-	guess = int(guess)
+    guess = input()
+    guess = int(guess)
 
-	if guess < number:
-		print("Too low.")
+    if guess < number:
+        print("Too low.")
 
-	if guess > number:
-		print("Too high.")
+    if guess > number:
+        print("Too high.")
 
-	if guess == number:
-		break
+    if guess == number:
+        break
 
 if guess == number:
-	print("How did you know, you must be a witch, now die!")
+    print("How did you know, you must be a witch, now die!")
 
 if guess != number:
-	number = str(number)
-	print("You lose noob, now you must die!" + " BTW the number was " + number)
+    number = str(number)
+    print("You lose noob, now you must die!" + " BTW the number was " + number)
