@@ -28,4 +28,4 @@ if guess == number:
 
 if guess != number:
 	number = str(number)
-	print("You lose noob, now die." + " BTW the number was " + number)
+	print("You lose noob, now you must die!" + " BTW the number was " + number)
