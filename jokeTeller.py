@@ -1,3 +1,3 @@
-print("What club do racist scientists join?")
-input()
-print("The potassium potassium potassium")
+someString = 'I {} and should be {}'
+someString = someString.format('am a dog', 'barking')
+print(someString)
